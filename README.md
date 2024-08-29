@@ -14,8 +14,11 @@ Esse repositório é para ser utilizado pelos grupos como um template inicial, d
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 202401709433  |  Bernardo Lobo Marques |
+| 202401569852  |  Michel de Melo Guimarães |
+| 202307539741  |  Thiago Neves Monteiro |
+| 202401318728  |  Pedro Macedo de Araujo |
+
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
