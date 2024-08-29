@@ -8,7 +8,7 @@ Esse repositório é para ser utilizado pelos grupos como um template inicial, d
 
 # NomedoProjeto
 
-**Número do Grupo**: I<br>
+**Número do Grupo**: 1<br>
 **Código da Disciplina**: FGA0208-T01<br>
 
 ## Alunos
