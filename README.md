@@ -1,7 +1,7 @@
 # NomedoProjeto
 
 **Número do Grupo**: 1<br>
-**Código da Disciplina**: FGA0208-T01<br>
+**Código da Disciplina**:  IBM1741<br>
 
 ## Alunos
 |Matrícula | Aluno |
@@ -13,13 +13,13 @@
 
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+Nosso projeto pretende implementar um site para o auxilio de turistas indo ao GP de Formula 1 que acontecerá no Brasil.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
+**Linguagens**: HTML CSS JAVASCRIPT<br>
 **Tecnologias**: xxxxxx<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
