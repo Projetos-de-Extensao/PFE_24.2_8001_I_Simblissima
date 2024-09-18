@@ -11,77 +11,86 @@ O propósito deste documento é fornecer uma visão geral sobre o projeto que se
 ## Descrição do Problema 
 
 <p align = "justify">
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-</p>
+Nosso site visa fornecer uma plataforma completa aos espectadores que vêm a São Paulo para ver o Grande Prêmio de Fórmula 1. O site oferece informações detalhadas sobre hospedagem, transporte e restaurantes recomendados. Foi criado com o objetivo de tornar a experiência do usuário mais agradável e sem estresse. Além disso, fornecemos dicas úteis sobre a cidade para que os visitantes possam planejar a visita e aproveitar ao máximo o evento. Nosso objetivo é tornar sua visita a São Paulo tão emocionante quanto a corrida!</p>
 
 ### Problema
 
-Dificuldade em gerenciar e organizar...
+O site foi criado para resolver diversos problemas que seriam enfrentados pelos visitantes que vem a São Paulo para assistir ao Grande Prêmio de Fórmula 1. Esses problemas compreendem:
+- Dificuldade de encontrar a hospedagem adequada.
+- Complicações com o transporte.
+- Ausência de informações locais.
+- Falta de conhecimento de locais para fazer as alimentações. 
 
 ### Impactados
 
-Usuários....
+Os principais impactados são:
+- Usuários visitantes da Fórmula 1.
+- Hotéis e restaurantes locais.
+- Serviços de Transporte.
 
 ### Consequência
 
-A criação de novos....
+As principais consequências são:
+- Melhoria na Experiência do Visitante.
+- Fortalecimento da Imagem da Cidade.
 
 ### Solução
 
-Utilizar a aplicação que será desenvolvida visando resolver...
+Utilizar a aplicação que será desenvolvida visando simplificar a experiência dos visitantes, tornando sua visita a São Paulo para a Fórmula 1 mais organizada, agradável e memorável.
 
 ## Objetivos
 
 <p align = "justify">
-O objetivo da equipe de desenvolvimento é fornecer...
-</p>
+Foi criado com o objetivo de tornar a experiência do usuário mais agradável e sem estresse. Além disso, fornecemos dicas úteis sobre a cidade para que os visitantes possam planejar a visita e aproveitar ao máximo o evento.</p>
 
-## Descrição do Usuário 
+<!-- ## Descrição do Usuário 
 
 <p align = "justify">
 Os usuários serão....
-</p>
+</p> -->
 
-## Recursos do produto
+<!-- ## Recursos do produto -->
 
-### Conta
+<!-- ### Conta
 
 <p align = "justify">
 O cliente poderá realizar seu cadastro....
-</p>
+</p> -->
 
-### Loja
+<!-- ### Loja
 
 <p align = "justify">
 O cliente poderá cadastrar uma loja única....
-</p>
+</p> -->
 
-### Produto
+<!-- ### Produto
 
 <p align = "justify">
 O cliente poderá cadastrar....
-</p>
+</p> -->
 
-### Pesquisa sobre Lojas
+<!-- ### Pesquisa sobre Lojas
 
 <p align = "justify">
 O cliente poderá pesquisar...
-</p>
+</p> -->
 
 ## Restrições
 
 <p align = "justify">
-A aplicação não será responsável...
+A aplicação não será responsável poelas seguintes restrições:
+- Limitação de Idiomas.
+- Responsabilidade por Terceiros.
+- Garantia de Disponibilidade.
 </p>
 
-## Referências Bibliográficas
+<!-- ## Referências Bibliográficas
 
 > Documento de visão. Disponível em https://www... Acesso em dd/MM/yyYY
 
-> Documento de visão. Disponível em  Acesso em dd/MM/yyYY
+> Documento de visão. Disponível em  Acesso em dd/MM/yyYY -->
 
 ## Versionamento
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| DD/MM/YYYY | 1.0 | Criação do documento | XXX XXXX e ZZZ ZZZZ | 
-
+| 17/09/2024 | 1.0 | Criação do documento | Bernardo Lobo, Thiago Neves, Michel de Melo e Pedro Macedo | 
