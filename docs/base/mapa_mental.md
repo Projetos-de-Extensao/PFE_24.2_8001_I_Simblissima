@@ -34,7 +34,7 @@ O mapa mental é uma ficha de estudos que ajuda a dar uma visão geral do tema, 
 </p>
  
 ## Referências
-> Mapa Mental MindMeister,  Disponível em: https://www.mindmeister.com
+> Mapa Mental MindMeister,  Disponível em: https://mm.tt/app/map/3436228956?t=2bhTJ4dM8G
  
 > Ferramentas para Mapas Mentais. Disponível em: https://www.mindmeister.com
  
