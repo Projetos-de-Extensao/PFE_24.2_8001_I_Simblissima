@@ -1,0 +1,7 @@
+# Link para o diagrama:
+
+https://www.plantuml.com/plantuml/png/RL9Dpjf03Drp2gyZVQfw0q8A0WaGAeYkJSQaXicOpazA3z53L5tq0DrrcujrXeHyGh3BytlpR3zdx3nQ__tWHXaKbh7zq_uMK08RAxxzw_aI4S6MFS5CR1qqmiTHbi56ew4JrcIyH9p19pgouU7zZcg4QJFGc_RVGNCfRxbkkifd-XROiHS7is1A5eFialNKUHjyiDqmhymBCPw2Ij-tqMwQBspfQB6EAC4b_f3WGM5i_QjYWp2N9yxTIGUBQ6dZntC_X3KsL0tZH7v59iI8E8vzGGrliCxtC47RsxCvtmqb6YO_nvL9RDok5FqLKwg5M7AFHOHPsYsnExfwwLXDjvmTxDc5BgLORd-MOgW7YnehCWbqZT5pmmfLbytZDIV8rzY85Ub1aaLSrVX2dMl_B9xlLalu0CLsEqfFYTG1otD_ruPT2Yxj80hVx_bmhlmKd2UNL7qwOp8g_ed_0G00
+
+# Print
+
+[![Diagrama Aht](../assets/prints/diagrama_aht.png)](../assets/prints/diagrama_aht.png)

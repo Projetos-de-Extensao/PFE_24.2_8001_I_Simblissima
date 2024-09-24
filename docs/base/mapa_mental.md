@@ -20,7 +20,7 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
  
 ### Mapa mental 1
  
-[![Mapa mental Entrevista](../assets/Mapas_mentais/....png)](../assets/Mapas_mentais/...png)
+[![Mapa mental](../assets/prints/mapa_mental.png)](../assets/prints/mapa_mental.png)
  
  
 ### Mapa mental 2
