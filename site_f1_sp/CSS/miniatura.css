@@ -1,0 +1,80 @@
+/* Titulo carrossel*/
+.titulo-carrossel{
+    display: flex;
+    justify-content: center;
+
+}
+
+.div-titulo-carrossel{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*Imagens carrossel*/
+.miniatura {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1%;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.miniatura .galeria {
+    width: 100%;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.miniatura .galeria .single-galeria {
+    position: relative;
+    width: 10%;
+    height: 100%;
+    margin: 0 3px;
+    transition: width 600ms;
+}
+
+.miniatura .galeria .single-galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+}
+
+
+/* Nome da equipe carrossel */
+.miniatura .galeria .single-galeria .info {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 40%, transparent);
+    padding: 16% 10%;
+    bottom: 0;
+    border-radius: 13px;
+    text-align: center;
+}
+
+.miniatura .galeria .single-galeria .info h1 {
+    font-size: 15px;
+    color: white;
+    transition: font-size 300ms;
+}
+
+.miniatura .galeria .single-galeria:hover .info h1 {
+    font-size: 30px;
+}
+
+
+/* Animação carrossel */
+.miniatura .galeria:hover .single-galeria {
+    width: 10% !important;
+}
+
+.miniatura .galeria .single-galeria:hover,
+.miniatura .galeria .single-galeria:first-child:hover {
+    width: 40% !important;
+}

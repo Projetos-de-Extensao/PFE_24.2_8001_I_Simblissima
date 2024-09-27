@@ -1,0 +1,85 @@
+@import url(/CSS/home.css);
+@import url(/CSS/miniatura.css);
+@import url(/CSS/navbar.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    background: url(/images/mural-esquerda.jpg) left top no-repeat,
+    url(/images/mural-direita.jpg) right top no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: rgb(255,255,255)
+}
+
+section.container {
+    flex: 1;
+    margin: 0 auto;
+    max-width: 85%;
+    border-left: 2px solid rgb(20, 20, 20);
+    border-right: 2px solid rgb(20, 20, 20);
+    background-color: rgb(35, 35, 35);
+    min-height: 100vh;
+    min-width: 1000px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 75vh;
+}
+
+.foto-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 62vh;
+    background-image: url('/images/autodromo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.texto-titulo {
+    text-align: center;
+    color: red;
+    text-shadow: 0px 4px 1px rgb(23, 0, 0);
+    font-size: 50px;
+    margin: 0;
+}
+
+.titulo-equipe{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    position: relative;
+    border-top: 2px solid rgb(140, 140, 140);
+}
+
+
