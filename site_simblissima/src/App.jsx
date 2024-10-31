@@ -1,19 +1,15 @@
 import './App.css'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Ingresso from './components/Ingresso'
-import Nav from './components/Nav'
+import Home from './components/pages/Home'
 
 
 
 function App() {
    return (
     <BrowserRouter>
-      <Nav />
       <Routes>
-        <Route path="/" element={
-          <Ingresso />
-          } />
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   )

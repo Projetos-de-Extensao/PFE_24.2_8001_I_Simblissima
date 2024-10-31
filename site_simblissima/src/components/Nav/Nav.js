@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  .navbar {
+          .navbar {
             background-color: #333;
             color: #fff;
             padding: 1em;
@@ -31,6 +31,7 @@ const Container = styled.div`
 
           .navbar a:hover {
             color: #ccc;
-          };
+          }
+`;
 
 export { Container }
