@@ -1,12 +1,21 @@
 import './App.css'
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Ingresso from './components/Ingresso'
+import Nav from './components/Nav'
+
+
+
 function App() {
    return (
-    <>
-      <div>
-        <p>Bem Vindo</p>
-      </div>
-    </>
+    <BrowserRouter>
+      <Nav />
+      <Routes>
+        <Route path="/" element={
+          <Ingresso />
+          } />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
