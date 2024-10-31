@@ -75,6 +75,14 @@ a:hover {
     background-color: #004494;
 }
 
+
+/* Estilos para o mapa */
+.mapa {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     .container {
