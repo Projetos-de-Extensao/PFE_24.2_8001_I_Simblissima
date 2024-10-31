@@ -1,37 +1,39 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-          .navbar {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-          }
+          nav {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 1em;
+}
 
+nav img {
+  margin-right: 10px;
+}
 
-          .navbar ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-          }
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
 
+nav li {
+  margin-right: 10px;
+}
 
-          .navbar li {
-            display: inline-block;
-            margin-right: 20px;
-          }
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
 
+nav a:hover {
+  color: #ccc;
+}
 
-          .navbar a {
-            color: #fff;
-            text-decoration: none;
-            transition: color 0.2s ease;
-          }
-
-
-          .navbar a:hover {
-            color: #ccc;
-          }
 `;
 
 export { Container }
