@@ -6,32 +6,59 @@ const Container = styled.div`
   align-items: center;
   background-color: #333;
   padding: 1em;
+  justify-content: space-between;
 }
 
 nav img {
-  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
 }
 
-nav ul {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-nav li {
-  margin-right: 10px;
-}
-
-nav a {
+.dropbtn {
+  background-color: #333;
   color: #fff;
-  text-decoration: none;
-  transition: color 0.2s ease;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
 }
 
-nav a:hover {
-  color: #ccc;
+.dropbtn:hover {
+  background-color: #444;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #444;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #444;
 }
 
 `;
