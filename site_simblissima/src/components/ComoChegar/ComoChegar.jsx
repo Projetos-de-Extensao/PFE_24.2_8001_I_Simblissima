@@ -7,9 +7,20 @@ function ComoChegar() {
     <>
     <Container>
     <div className="container">
+
             <section className="section">
                 <h2>Como Chegar ao Autódromo de Interlagos</h2>
-                
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14208.565606748036!2d-46.7086213318472!3d-23.703727503047602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4fc83e9584af%3A0x2ffcdc07da2ca5c0!2sAut%C3%B3dromo%20Jos%C3%A9%20Carlos%20Pace!5e1!3m2!1spt-BR!2sbr!4v1730393247714!5m2!1spt-BR!2sbr"
+                        width={600}
+                        height={450}
+                        style={{ border: 0 }}
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    />
+                </div>
                 <h3>De Carro</h3>
                 <p><strong>Endereço:</strong> Av. Sen. Teotônio Vilela, 261 - Interlagos, São Paulo - SP, 04801-000</p>
                 <p><strong>Roteiro:</strong> Use aplicativos de navegação como Google Maps ou Waze para obter rotas em tempo real. O trajeto pode ser afetado por congestionamentos, especialmente durante eventos.</p>
