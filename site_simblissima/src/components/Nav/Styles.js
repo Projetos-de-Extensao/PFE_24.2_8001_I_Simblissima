@@ -10,8 +10,7 @@ const Container = styled.div`
 }
 
 nav img {
-  width: 100px;
-  height: 100px;
+  height: 40px;
   margin-right: 20px;
 }
 

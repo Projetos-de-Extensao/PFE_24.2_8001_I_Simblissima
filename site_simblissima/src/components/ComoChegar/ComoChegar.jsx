@@ -27,14 +27,12 @@ function ComoChegar() {
                 <p><strong>Roteiro:</strong> Use aplicativos de navegação como Google Maps ou Waze para obter rotas em tempo real. 
                 O trajeto pode ser afetado por congestionamentos, especialmente durante eventos.</p><br />
                 
-                <h3>Transporte Público</h3>
-                <p><strong>Metrô:</strong> A estação mais próxima é a <strong>Estação Interlagos</strong> (Linha 9 - Esmeralda). De lá, você pode pegar um ônibus ou um táxi até o autódromo.</p>
-                <p><strong>Ônibus:</strong> Vários ônibus passam pela região. Verifique a linha que atende ao seu ponto de partida. 
-                A linha <strong>5501-10</strong> (Interlagos - Metrô Jabaquara) é uma boa opção.</p><br />
-                
-                <h3>Bicicleta</h3>
-                <p>Há ciclofaixas nas proximidades. Se você optar por ir de bicicleta, 
-                    procure estacionar em locais seguros ao redor do autódromo.</p><br />
+                <h3>Metrô:</h3>
+                <p>A estação mais próxima é a <strong>Estação Interlagos</strong> (Linha 9 - Esmeralda). De lá, você pode pegar um ônibus ou um táxi até o autódromo.</p>
+                <h3>Ônibus:</h3>
+                <p> Vários ônibus passam pela região. Verifique a linha que atende ao seu ponto de partida. A linha <strong>5501-10</strong> (Interlagos - Metrô Jabaquara) é uma boa opção.</p><br />
+            
+
                 
                 <h3>Dicas</h3>
                 <ul>
