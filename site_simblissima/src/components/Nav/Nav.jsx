@@ -4,7 +4,7 @@ function Nav() {
   return (
     <Container>
       <nav>
-        <img src="" alt="Logo" />
+        <img src="/src/media/logo.png" alt="Logo" />
         <div className="dropdown">
           <button className="dropbtn">Menu</button>
           <div className="dropdown-content">
@@ -15,7 +15,7 @@ function Nav() {
             <a href="#acomodacao">Acomodação</a>
             <a href="#equipes">Equipes</a>
           </div>
-        </div>
+        </div>     
       </nav>
     </Container>
   );
