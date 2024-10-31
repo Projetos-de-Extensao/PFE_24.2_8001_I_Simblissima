@@ -5,7 +5,7 @@ function Nav() {
   return (
     <Container>
       <nav>
-      <img src="" alt="Logo" />
+      <img src="/src/media/logo.png" alt="Logo" />
       <ul>
         <li><a href="#programacao">Programação</a></li>
         <li><a href="#como-chegar">Como Chegar</a></li>
