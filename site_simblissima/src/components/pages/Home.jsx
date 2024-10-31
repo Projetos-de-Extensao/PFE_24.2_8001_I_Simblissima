@@ -7,9 +7,7 @@ function Home() {
   return (
     <>
       <Nav/>
-      <div>
-        <h1>Welcome to the Home Page</h1>
-        <p>This is the content of the Home page.</p>
+      <div>        
         <ComoChegar />
         <Ingresso />
       </div>
