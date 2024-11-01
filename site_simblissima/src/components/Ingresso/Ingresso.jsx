@@ -13,7 +13,8 @@ function Ingressos() {
   return (
     <Container>
       <div className="container" id="ingresso">
-        <h1>Venda de ingressos do evento</h1>
+      <section className="section">
+        <h2>Venda de ingressos do evento</h2>
         <p>Compre seu ingresso para o grande evento ou para a fanzone</p>
 
         <h2>Fanzone:</h2>
@@ -33,16 +34,17 @@ function Ingressos() {
         <p>3- Estratégias de pit stop: Os pilotos fazem paradas para trocar pneus e reabastecer, influenciando o desempenho.</p>
         <p>4- Pontos: Os pilotos e equipes acumulam pontos com base na classificação final, que determina os campeões da temporada.</p>
 
-        <div>
+          <div class="button-container">
+            <button class='button' onClick={handleComprarIngressos}>
+              Comprar ingressos da corrida
+            </button>
 
-          <button class='button' onClick={handleComprarIngressos}>
-            Comprar ingressos da corrida
-          </button>
+            <button class='button' onClick={handleFanZone}>
+              Comprar ingressos da Fanzone
+            </button>
+          </div>
+          </section>
 
-          <button class='button' onClick={handleFanZone}>
-            Comprar ingressos da Fanzone
-          </button>
-        </div>
       </div>
     </Container>
   );

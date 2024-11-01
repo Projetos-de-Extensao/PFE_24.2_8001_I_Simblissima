@@ -38,9 +38,9 @@ h1, h2, h3 {
 .section {
     background: #fff;
     padding: 20px;
-    margin: 20px 0;
     margin-top: 0;
     border-radius: 8px;
+    padding: 0 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
