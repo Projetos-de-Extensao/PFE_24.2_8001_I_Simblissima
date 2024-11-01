@@ -27,7 +27,7 @@ function Nav() {
             className="dropdown-content"
             style={showDropdown ? { display: 'block' } : { display: 'none' }}
           >
-            <a href="#programacao">Programação</a>
+            <a href="">Programação</a>
             <a href="#como-chegar">Como Chegar</a>
             <a href="#ingresso">Ingresso</a>
             <a href="#usos-gerais">Usos Gerais</a>

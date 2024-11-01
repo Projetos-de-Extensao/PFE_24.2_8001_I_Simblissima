@@ -34,12 +34,12 @@ function Ingressos() {
         <p>3- Estratégias de pit stop: Os pilotos fazem paradas para trocar pneus e reabastecer, influenciando o desempenho.</p>
         <p>4- Pontos: Os pilotos e equipes acumulam pontos com base na classificação final, que determina os campeões da temporada.</p>
 
-          <div class="button-container">
+          <div className="button-container">
             <button class='button' onClick={handleComprarIngressos}>
               Comprar ingressos da corrida
             </button>
 
-            <button class='button' onClick={handleFanZone}>
+            <button className='button' onClick={handleFanZone}>
               Comprar ingressos da Fanzone
             </button>
           </div>

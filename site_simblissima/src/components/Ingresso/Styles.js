@@ -35,8 +35,8 @@ const Container = styled.div`
   /* Estilo das seções */
   .section {
   background: #fff;
-  padding: 0 20px;
-  margin-top: 0;
+  padding: 15px 20px;
+  margin-top: 0px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 

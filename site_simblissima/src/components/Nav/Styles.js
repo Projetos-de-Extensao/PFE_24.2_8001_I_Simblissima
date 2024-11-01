@@ -9,9 +9,9 @@ const Container = styled.div`
        justify-content: space-between;
        position: fixed;
        width: 100%;
+       margin-bottom: 40px;
        top: 0;
        left: 0;
-       z-index: 999;
      }
 
      nav img {

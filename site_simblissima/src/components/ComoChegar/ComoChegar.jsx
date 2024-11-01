@@ -6,8 +6,8 @@ function ComoChegar() {
         
     <>
     <Container>
-    <div className="container" id="como-chegar">
     
+    <div className="container" id="como-chegar"> 
 
             <section className="section">
                 <h2>Como Chegar ao Autódromo de Interlagos</h2>
