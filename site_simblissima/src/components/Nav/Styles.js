@@ -7,6 +7,11 @@ const Container = styled.div`
        background-color: #333;
        padding: 1em;
        justify-content: space-between;
+       position: fixed;
+       width: 100%;
+       top: 0;
+       left: 0;
+       z-index: 999;
      }
 
      nav img {
@@ -19,7 +24,7 @@ const Container = styled.div`
        display: inline-block;
        height: 20px;
        width: 20px;
-       padding-right: 10px;
+       padding-right: 30px;
      }
 
      .dropbtn {
@@ -29,6 +34,7 @@ const Container = styled.div`
        width: 20px;
        border: none;
        cursor: pointer;
+       padding-right: 30px;
      }
 
      .dropbtn img {
@@ -37,7 +43,8 @@ const Container = styled.div`
        display: flex;
        justify-content: center;
        align-items: center;
-     }     
+       padding-right: 200px;
+     }
 
      .dropdown-content {
        display: none;

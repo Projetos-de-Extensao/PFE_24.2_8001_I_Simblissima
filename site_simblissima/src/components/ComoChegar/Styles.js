@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
+
 /* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* Estilos do body */
@@ -14,6 +16,7 @@ body {
     line-height: 1.6;
     background-color: #f5f5f5;
     color: #333;
+
 }
 
 /* Container principal */
@@ -21,6 +24,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    border:1px solid black;
+    margin-top: 45px;
 }
 
 /* Título da seção */
@@ -34,6 +39,7 @@ h1, h2, h3 {
     background: #fff;
     padding: 20px;
     margin: 20px 0;
+    margin-top: 0;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
