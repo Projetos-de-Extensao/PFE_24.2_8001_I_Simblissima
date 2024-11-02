@@ -9,7 +9,6 @@ const Container = styled.div`
   }
 
   body {
-  font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f5f5f5;
   color: #333;
