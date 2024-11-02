@@ -5,7 +5,7 @@ function Programacao() {
     return (
 <>
     <div className="container" id="Programacao">
-        <section className="section">
+        <section>
             <h2>Programação</h2>
             <div className='container-prog'>
 

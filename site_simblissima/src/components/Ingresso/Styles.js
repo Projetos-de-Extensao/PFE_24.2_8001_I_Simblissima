@@ -6,7 +6,6 @@ const Container = styled.div`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 .container {
@@ -27,7 +26,6 @@ p {
 }
 
 ul {
-    list-style-type: none;
     padding-left: 25px;
 }
 
@@ -54,8 +52,5 @@ a:hover {
         font-size: 1.5em;
     }
 }
-
-
 `;
-
 export { Container };

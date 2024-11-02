@@ -25,7 +25,6 @@ p {
     text-align: justify;
 }
 ul {
-    list-style-type: none;
     padding-left: 25px;
 }
 

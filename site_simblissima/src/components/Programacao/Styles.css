@@ -13,27 +13,23 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 20px;
     margin-top: 5px;
+
 }
 
-.section {
-    background: #fff;
+section {
     padding: 20px;
-    margin-top: 40px;
     border-radius: 8px;
     padding: 15px 20px;
-    border: 1px solid black;
 }
 
 h1, h2, h3 {
-    color: #0056b3;
+    color: red;
     margin-bottom: 15px;
 }
 
 .container-prog {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .itens-prog {
@@ -43,9 +39,10 @@ h1, h2, h3 {
     align-items: center;
     text-align: center;
     min-width: 140px;
-    border: 1px solid #000000;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.15) 0px 6px 6px;
     height: 300px;
     border-radius: 8px;
+    background-color: #e1e1e1dc;
 }
 
 .prog{
@@ -68,10 +65,11 @@ h1, h2, h3 {
 .box-hora {
     display: flex;
     justify-content: center;
+
 }
 
 .prog-hora {
-    background-color: #0056b3;
+    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +77,9 @@ h1, h2, h3 {
     height: 50px;
     width: 50px;
     color: white;
-    text-shadow: 2px 1px black;
+    text-shadow: 1px 2px 0px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 @media (max-width: 500px) {
