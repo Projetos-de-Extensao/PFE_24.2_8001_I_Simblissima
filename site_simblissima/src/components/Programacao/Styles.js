@@ -10,15 +10,14 @@ const Container = styled.div`
 
 body {
     line-height: 1.6;
-    background-color: #f5f5f5;
     color: #333;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 5px;
-
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.3) -3px 0px 12px -3px, rgba(0, 0, 0, 0.2) 3px 0px 12px -3px;
 }
 
 section {
@@ -31,11 +30,9 @@ h1, h2, h3 {
     color: red;
     margin-bottom: 15px;
 }
-
 h2 {
     font-size: 3.0rem;
 }
-
 h3 {
     font-size: 2.0rem;
 }

@@ -14,7 +14,7 @@ function Ingressos() {
 
   return (
     <Container>
-      <section className="container">
+      <section className="container" id='ingresso'>
         <h2>Venda de ingressos do evento</h2>
         <figure className="legenda-compra">
           <img class="legenda-compra" src='src/media/f1-map-sc.jpg'></img>

@@ -13,6 +13,8 @@ const Container = styled.div`
     margin: 0 auto;
     padding: 10px 20px;
     margin-top: 5px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.3) -3px 0px 12px -3px, rgba(0, 0, 0, 0.2) 3px 0px 12px -3px;
 }
 
 h1, h2, h3 {
@@ -29,11 +31,12 @@ h3 {
 }
 
 p {
+    margin: 15px;
     margin-bottom: 15px;
     text-align: justify;
 }
 ul {
-    padding-left: 25px;
+    padding-left: 60px;
 }
 
 ul li {
@@ -42,7 +45,7 @@ ul li {
 
 /* Links */
 a {
-    color: #0056b3;
+    color: red;
     text-decoration: none;
 }
 
@@ -57,8 +60,15 @@ a:hover {
     margin-top: 20px;
 }
 
+.mapa iframe {
+    width: 600px;
+    height: 400px;
+    border: 0;
+}
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 767px) {
     .container {
         padding: 10px;
     }
@@ -66,8 +76,28 @@ a:hover {
     h1, h2, h3 {
         font-size: 1.5em;
     }
+
+    .mapa iframe {
+    width: 600px;
+    height: 400px;
+    border: 0;
+    }
+
+    @media (max-width: 500px) {
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.5em;
 }
 
-`;
+        .mapa iframe {
+        width: 350px;
+        height: 300px;
+        border: 0;
+    }
+
+    `;
 
 export { Container }

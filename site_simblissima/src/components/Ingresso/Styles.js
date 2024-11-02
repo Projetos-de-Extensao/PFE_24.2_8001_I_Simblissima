@@ -13,9 +13,9 @@ const Container = styled.div`
     margin: 0 auto;
     padding: 10px 20px;
     margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) -3px 0px 12px -3px, rgba(0, 0, 0, 0.2) 3px 0px 12px -3px;
 }
-
-
 
 figure.legenda-compra {
     display: flex;
@@ -54,12 +54,12 @@ h3 {
 }
 
 p {
+    margin: 15px;
     margin-bottom: 15px;
     text-align: justify;
 }
-
 ul {
-    padding-left: 25px;
+    padding-left: 60px;
 }
 
 ul li {
@@ -84,6 +84,10 @@ a:hover {
     h1, h2, h3 {
         font-size: 1.5em;
     }
+    .legenda-compra img {
+    width: 300px;
+    height: 300px;
+}
 }
 `;
 export { Container };

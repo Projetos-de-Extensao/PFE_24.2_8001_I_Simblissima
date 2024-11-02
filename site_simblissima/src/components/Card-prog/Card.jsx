@@ -21,7 +21,8 @@ const StyledWrapper = styled.div`
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.15) 0px 6px 6px;
         height: 300px;
         border-radius: 8px;
-        background-color: #e1e1e1dc;
+        background-color: #454545;
+        transition: all 0.3s ease-in-out;
     }
 
     .prog{
@@ -60,6 +61,7 @@ const StyledWrapper = styled.div`
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
+
 
     @media (max-width: 500px) {
         .container {
@@ -158,65 +160,71 @@ function Card() {
 
         <StyledWrapper>
             <div className='container-prog'>
-                <div className='itens-prog'>
-                    <div className='prog'>
-                        <p className='titulo-prog'>Treino Livre</p>
-                    </div>
-                    <div className='prog-data'>
-                        1 nov - Sexta-feira
-                    </div>
-                    <div className='box-hora'>
-                        <div className='prog-hora'>11:30</div>
-                    </div>
-                </div>
 
-                <div className='itens-prog'>
-                    <div className='prog'>
-                        <p className='titulo-prog'>Sprint Quali</p>
+                    <div className='itens-prog'>
+                        <div className='prog'>
+                            <p className='titulo-prog'>Treino Livre</p>
+                        </div>
+                        <div className='prog-data'>
+                            1 nov - Sexta-feira
+                        </div>
+                        <div className='box-hora'>
+                            <div className='prog-hora'>11:30</div>
+                        </div>
                     </div>
-                    <div className='prog-data'>
-                        1 nov - Sexta-feira
-                    </div>
-                    <div className='box-hora'>
-                        <div className='prog-hora'>15:30</div>
-                    </div>
-                </div>
 
-                <div className='itens-prog'>
-                    <div className='prog'>
-                        <p className='titulo-prog'>Sprint</p>
-                    </div>
-                    <div className='prog-data'>
-                        2 nov - Sábado
-                    </div>
-                    <div className='box-hora'>
-                        <div className='prog-hora'>11:00</div>
-                    </div>
-                </div>
 
-                <div className='itens-prog'>
-                    <div className='prog'>
-                        <p className='titulo-prog'>Classificação</p>
+                    <div className='itens-prog'>
+                        <div className='prog'>
+                            <p className='titulo-prog'>Sprint Quali</p>
+                        </div>
+                        <div className='prog-data'>
+                            1 nov - Sexta-feira
+                        </div>
+                        <div className='box-hora'>
+                            <div className='prog-hora'>15:30</div>
+                        </div>
                     </div>
-                    <div className='prog-data'>
-                        2 nov - Sábado
-                    </div>
-                    <div className='box-hora'>
-                        <div className='prog-hora'>15:00</div>
-                    </div>
-                </div>
 
-                <div className='itens-prog'>
-                    <div className='prog'>
-                        <p className='titulo-prog'>Corrida</p>
+
+                    <div className='itens-prog'>
+                        <div className='prog'>
+                            <p className='titulo-prog'>Sprint</p>
+                        </div>
+                        <div className='prog-data'>
+                            2 nov - Sábado
+                        </div>
+                        <div className='box-hora'>
+                            <div className='prog-hora'>11:00</div>
+                        </div>
                     </div>
-                    <div className='prog-data'>
-                        3 nov - Domingo
+
+
+                    <div className='itens-prog'>
+                        <div className='prog'>
+                            <p className='titulo-prog'>Classificação</p>
+                        </div>
+                        <div className='prog-data'>
+                            2 nov - Sábado
+                        </div>
+                        <div className='box-hora'>
+                            <div className='prog-hora'>15:00</div>
+                        </div>
                     </div>
-                    <div className='box-hora'>
-                        <div className='prog-hora'>14:00</div>
+
+
+                    <div className='itens-prog'>
+                        <div className='prog'>
+                            <p className='titulo-prog'>Corrida</p>
+                        </div>
+                        <div className='prog-data'>
+                            3 nov - Domingo
+                        </div>
+                        <div className='box-hora'>
+                            <div className='prog-hora'>14:00</div>
+                        </div>
                     </div>
-                </div>
+
             </div>
         </StyledWrapper>
 

@@ -19,25 +19,27 @@ const Container = styled.div`
      .dropdown {
        position: relative;
        display: inline-block;
-       height: 20px;
-       width: 20px;
      }
 
      .dropbtn {
-       background-color: #333;
-       color: #fff;
-       height: 20px;
-       width: 20px;
+       background-color: transparent;
        border: none;
        cursor: pointer;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 0;
+       height: 20px;
+       width: 20px;
+
      }
 
      .dropbtn img {
+       height: auto;
+       width: 100%;
        height: 20px;
        width: 20px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
+       margin-right: 60px;
      }
 
      .dropdown-content {
