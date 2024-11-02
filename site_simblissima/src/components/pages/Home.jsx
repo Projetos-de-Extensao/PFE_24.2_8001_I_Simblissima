@@ -5,8 +5,10 @@ import Nav from '../Nav/Nav';
 import { Container } from './styles';
 import Programacao from '../Programacao/Programacao';
 
+
 function Home() {
   return (
+
     <>
       <Nav/>
       <Container>
@@ -14,9 +16,8 @@ function Home() {
         <ComoChegar/>
         <Ingresso/>
       </Container>
+    </>
 
-"
-      </>
   );
 }
 

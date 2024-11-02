@@ -3,13 +3,11 @@ import { Container } from './Styles';
 
 function ComoChegar() {
     return (
-        
+
     <>
     <Container>
-    
-    <div className="container" id="como-chegar"> 
 
-            <section className="section">
+    <div className="container" id="como-chegar">
                 <h2>Como Chegar ao Autódromo de Interlagos</h2>
                 <div className='mapa'>
                     <iframe
@@ -24,16 +22,17 @@ function ComoChegar() {
                 </div><br />
                 <h3>De Carro</h3>
                 <p><strong>Endereço:</strong> Av. Sen. Teotônio Vilela, 261 - Interlagos, São Paulo - SP, 04801-000</p>
-                <p><strong>Roteiro:</strong> Use aplicativos de navegação como Google Maps ou Waze para obter rotas em tempo real. 
+                <p><strong>Roteiro:</strong> Use aplicativos de navegação como Google Maps ou Waze para obter rotas em tempo real.
                 O trajeto pode ser afetado por congestionamentos, especialmente durante eventos.</p><br />
-                
+
                 <h3>Metrô:</h3>
-                <p>A estação mais próxima é a <strong>Estação Interlagos</strong> (Linha 9 - Esmeralda). De lá, você pode pegar um ônibus ou um táxi até o autódromo.</p>
+                <p>A estação mais próxima é a <strong>Estação Interlagos</strong> (Linha 9 - Esmeralda). De lá, você pode pegar um ônibus ou um táxi até o autódromo.</p><br />
+
                 <h3>Ônibus:</h3>
                 <p> Vários ônibus passam pela região. Verifique a linha que atende ao seu ponto de partida. A linha <strong>5501-10</strong> (Interlagos - Metrô Jabaquara) é uma boa opção.</p><br />
-            
 
-                
+
+
                 <h3>Dicas</h3>
                 <ul>
                     <li><strong>Chegue Cedo:</strong> O trânsito pode ser intenso em dias de corrida. Tente chegar pelo menos 2 horas antes do início do evento.</li>
@@ -43,9 +42,8 @@ function ComoChegar() {
 
                 <h3>Informações Adicionais</h3>
                 <p>Consulte o site oficial do evento para atualizações sobre transporte e estacionamento, além de dicas de segurança.</p><br />
-                
+
                 <button className="button">Saiba Mais</button>
-            </section>
         </div>
 
     </Container>

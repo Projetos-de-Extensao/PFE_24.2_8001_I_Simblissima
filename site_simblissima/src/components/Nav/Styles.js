@@ -16,7 +16,6 @@ const Container = styled.div`
 
      nav img {
        height: 40px;
-       margin-right: 20px;
      }
 
      .dropdown {
@@ -24,7 +23,6 @@ const Container = styled.div`
        display: inline-block;
        height: 20px;
        width: 20px;
-       padding-right: 30px;
      }
 
      .dropbtn {
@@ -34,7 +32,6 @@ const Container = styled.div`
        width: 20px;
        border: none;
        cursor: pointer;
-       padding-right: 30px;
      }
 
      .dropbtn img {

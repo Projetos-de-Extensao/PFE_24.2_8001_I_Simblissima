@@ -69,6 +69,10 @@ const Container = styled.div`
     justify-content: center;
   }
 
+  ul {
+    padding-left: 20px;
+  }
+
 `;
 
 export { Container };
