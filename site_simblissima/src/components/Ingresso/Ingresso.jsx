@@ -16,9 +16,9 @@ function Ingressos() {
     <Container>
       <section className="container">
         <h2>Venda de ingressos do evento</h2>
-        <picture className="legenda-compra">
+        <figure className="legenda-compra">
           <img class="legenda-compra" src='src/media/f1-map-sc.jpg'></img>
-        </picture>
+        </figure>
         <h3>Fanzone:</h3>
         <p >A Fanzone nos eventos de Fórmula 1 é uma área destinada aos fãs, onde eles podem participar de várias atividades relacionadas ao automobilismo.</p>
         <ul>

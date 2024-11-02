@@ -17,7 +17,7 @@ const Container = styled.div`
 
 
 
-.legenda-compra picture {
+figure.legenda-compra {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,10 +25,11 @@ const Container = styled.div`
     padding: 20px;
     margin-bottom: 20px;
     }
-    
+
 .legenda-compra img {
-    border-radius: 25px;
-    width: 100%;
+    border-radius: 15px;
+    width: 600px;
+    height: 600px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -45,11 +46,11 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 3.0rem;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
 }
 
 p {
