@@ -7,9 +7,7 @@ const Container = styled.div`
        background-color: #333;
        padding: 1em;
        justify-content: space-between;
-       position: fixed;
        width: 100%;
-       margin-bottom: 40px;
        top: 0;
        left: 0;
      }
