@@ -9,13 +9,7 @@ const Container = styled.div`
 
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f5f5f5;
-    color: #333;
 
-}
 
 .container {
     max-width: 1200px;
@@ -25,23 +19,17 @@ body {
 }
 
 h1, h2, h3 {
-    color: #0056b3;
+    color: red;
     margin-bottom: 15px;
 }
 
-.section {
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    padding: 15px 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid black;
+p {
+    margin-bottom: 15px;
+    text-align: justify;
 }
-
-
 ul {
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 25px;
 }
 
 ul li {
@@ -58,25 +46,7 @@ a:hover {
     text-decoration: underline;
 }
 
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0056b3;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: #004494;
-}
-
-
-
+/* Mapa */
 .mapa {
     display: flex;
     justify-content: center;
@@ -91,10 +61,6 @@ a:hover {
 
     h1, h2, h3 {
         font-size: 1.5em;
-    }
-
-    .section {
-        padding: 15px;
     }
 }
 
