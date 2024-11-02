@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 const Container = styled.div`
 
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@ const Container = styled.div`
 
 }
 
-/* Estilos do body */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -19,30 +17,28 @@ body {
 
 }
 
-/* Container principal */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 20px;
+    margin-top: 5px;
 }
 
-/* Título da seção */
 h1, h2, h3 {
     color: #0056b3;
     margin-bottom: 15px;
 }
 
-/* Estilo das seções */
 .section {
     background: #fff;
     padding: 20px;
-    margin-top: 40px;
     border-radius: 8px;
     padding: 15px 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
 }
 
-/* Lista de itens */
+
 ul {
     list-style-type: none;
     padding-left: 0;
@@ -62,7 +58,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Estilos para botões */
+
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -80,14 +76,14 @@ a:hover {
 }
 
 
-/* Estilos para o mapa */
+
 .mapa {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .container {
         padding: 10px;

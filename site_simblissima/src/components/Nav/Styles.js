@@ -43,7 +43,6 @@ const Container = styled.div`
        display: flex;
        justify-content: center;
        align-items: center;
-       padding-right: 200px;
      }
 
      .dropdown-content {
