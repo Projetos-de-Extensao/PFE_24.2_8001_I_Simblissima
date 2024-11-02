@@ -16,9 +16,41 @@ const Container = styled.div`
     margin-top: 5px;
 }
 
+
+
+.legenda-compra picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+    
+.legenda-compra img {
+    border-radius: 25px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.botao-container {
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+
 h1, h2, h3 {
     color: red;
     margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2.5rem;
 }
 
 p {
