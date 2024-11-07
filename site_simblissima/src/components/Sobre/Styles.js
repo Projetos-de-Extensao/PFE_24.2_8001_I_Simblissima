@@ -36,7 +36,7 @@ p {
 }
 
 
-@media (max-width: 767px) {
+@media (min-width: 600px) {
     .container {
         padding: 10px;
     }
@@ -55,7 +55,7 @@ p {
     .container {
         max-width: 1200px;
 }
-        
+
 `;
 
 export { Container }

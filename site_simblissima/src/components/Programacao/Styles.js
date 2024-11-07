@@ -14,8 +14,7 @@ body {
 }
 
 .container {
-    margin: 0 auto;
-   
+    margin: 0 auto;   
     border-radius: 3px;
     margin-bottom: 15px;
     box-shadow: rgba(0, 0, 0, 0.3) -3px 0px 12px -3px, rgba(0, 0, 0, 0.2) 3px 0px 12px -3px;
@@ -37,7 +36,7 @@ h2 {
     font-size: 2.0rem;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
     h2 {
     font-size: 2.5rem;
     }

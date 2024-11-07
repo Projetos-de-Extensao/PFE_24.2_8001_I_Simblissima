@@ -75,7 +75,7 @@ a:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 600px) {
     .container {
         padding: 10px;
     }
@@ -83,6 +83,14 @@ a:hover {
     .legenda-compra img {
     width: 300px;
     height: 300px;
+    }
+
+    h2 {
+    font-size: 2.5rem;
+    }
+
+    h3 {
+    font-size: 2.0rem;
     }
 }
 
