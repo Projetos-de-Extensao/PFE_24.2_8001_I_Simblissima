@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 const StyledWrapper = styled.div`
-
     .container-prog {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 
         justify-items: center;
         align-items: center;
         justify-content: center;
@@ -18,6 +17,7 @@ const StyledWrapper = styled.div`
         text-align: center;
         min-width: 140px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.15) 0px 6px 6px;
+        width: 300px;
         height: 300px;
         border-radius: 8px;
         background-color: #454545;
@@ -32,10 +32,11 @@ const StyledWrapper = styled.div`
     }
 
     .titulo-prog {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .prog-data {
+        font-size: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -53,44 +54,14 @@ const StyledWrapper = styled.div`
         justify-content: center;
         align-items: center;
         font-weight: bold;
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         color: white;
         text-shadow: 1px 2px 0px rgba(0,0,0,0.7);
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
-
-
-    @media (max-width: 500px) {
-        .container {
-            width: 100%;
-        }
-
-        .container-prog {
-            grid-template-columns: 1fr;
-            justify-items: center;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .titulo-prog {
-            font-size: 30px;
-        }
-
-        .prog-data {
-            font-size: 20px;
-        }
-
-        .prog-hora {
-            height: 60px;
-            width: 60px;
-        }
-
-        .itens-prog {
-            width: 300px;
-        }
-    }
+ 
 
     @media (min-width: 700px) {
         .container {

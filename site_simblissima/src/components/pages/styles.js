@@ -16,14 +16,6 @@ export const Container = styled.div`
     h1, h2, h3 {
     color: red;
     margin-bottom: 15px;
-    }
-
-    h2 {
-        font-size: 3.5rem;
-    }
-
-    h3 {
-        font-size: 2.5rem;
-    }
+    }    
 
 `

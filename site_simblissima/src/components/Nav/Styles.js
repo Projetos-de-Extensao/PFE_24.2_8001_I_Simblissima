@@ -7,7 +7,6 @@ const Container = styled.div`
        background-color: #333;
        padding: 1em;
        justify-content: space-between;
-       width: 100%;
        top: 0;
        left: 0;
      }
@@ -39,7 +38,6 @@ const Container = styled.div`
        width: 100%;
        height: 20px;
        width: 20px;
-       margin-right: 60px;
      }
 
      .dropdown-content {

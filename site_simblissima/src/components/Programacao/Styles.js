@@ -14,9 +14,10 @@ body {
 }
 
 .container {
-    max-width: 1200px;
     margin: 0 auto;
+   
     border-radius: 3px;
+    margin-bottom: 15px;
     box-shadow: rgba(0, 0, 0, 0.3) -3px 0px 12px -3px, rgba(0, 0, 0, 0.2) 3px 0px 12px -3px;
 }
 
@@ -31,12 +32,29 @@ h1, h2, h3 {
     color: red;
     margin-bottom: 15px;
 }
+
 h2 {
-    font-size: 3.0rem;
-}
-h3 {
     font-size: 2.0rem;
 }
+
+@media (min-width: 700px) {
+    h2 {
+    font-size: 2.5rem;
+    }
+
+    h3 {
+    font-size: 2.0rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+
+
 `;
 
 export { Container };

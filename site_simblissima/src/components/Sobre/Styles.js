@@ -9,7 +9,6 @@ const Container = styled.div`
 }
 
 .container {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 10px 20px;
     margin-top: 5px;
@@ -23,11 +22,11 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: 3.0rem;
+    font-size: 2.0rem;
 }
 
 h3 {
-    font-size: 2.0rem;
+    font-size: 1.5rem;
 }
 
 p {
@@ -41,19 +40,22 @@ p {
     .container {
         padding: 10px;
     }
-
-    h1, h2, h3 {
-        font-size: 1.5em;
+    
+    h2 {
+    font-size: 2.5rem;
     }
 
-    @media (max-width: 500px) {
-        h2 {
-            font-size: 2em;
-        }
+    h3 {
+    font-size: 1.5rem;
+    }
 
-        h3 {
-            font-size: 1.5em;
 }
+
+@media (min-width: 1000px) {
+    .container {
+        max-width: 1200px;
+}
+        
 `;
 
 export { Container }
