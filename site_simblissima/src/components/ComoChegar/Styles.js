@@ -13,6 +13,7 @@ const Container = styled.div`
     margin: 0 auto;
     padding: 10px 20px;
     margin-top: 5px;
+    margin-bottom: 20px;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.3) -3px 0px 12px -3px, rgba(0, 0, 0, 0.2) 3px 0px 12px -3px;
 }
