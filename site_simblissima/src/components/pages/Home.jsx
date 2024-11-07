@@ -4,6 +4,7 @@ import Ingresso from '../Ingresso/Ingresso';
 import Nav from '../Nav/Nav';
 import { Container } from './styles';
 import Programacao from '../Programacao/Programacao';
+import Sobre from '../Sobre/Sobre';
 
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
         <Programacao/>
         <ComoChegar/>
         <Ingresso/>
+        <Sobre/>
       </Container>
     </>
 
