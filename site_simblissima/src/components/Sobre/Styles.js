@@ -35,37 +35,6 @@ p {
     margin-bottom: 15px;
     text-align: justify;
 }
-ul {
-    padding-left: 60px;
-}
-
-ul li {
-    margin: 10px 0;
-}
-
-/* Links */
-a {
-    color: red;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Mapa */
-.mapa {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.mapa iframe {
-    width: 600px;
-    height: 400px;
-    border: 0;
-}
-
 
 
 @media (max-width: 767px) {
@@ -77,12 +46,6 @@ a:hover {
         font-size: 1.5em;
     }
 
-    .mapa iframe {
-    width: 600px;
-    height: 400px;
-    border: 0;
-    }
-
     @media (max-width: 500px) {
         h2 {
             font-size: 2em;
@@ -91,13 +54,6 @@ a:hover {
         h3 {
             font-size: 1.5em;
 }
-
-        .mapa iframe {
-        width: 350px;
-        height: 300px;
-        border: 0;
-    }
-
-    `;
+`;
 
 export { Container }

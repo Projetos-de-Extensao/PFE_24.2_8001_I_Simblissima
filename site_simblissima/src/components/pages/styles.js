@@ -7,7 +7,7 @@ export const Container = styled.div`
     font-family: 'Titillium Web', sans-serif;
 
     color: #fff;
-    background-color: #505050;
+    background-color: #606060;
 
     .container {
         background-color: #454545;

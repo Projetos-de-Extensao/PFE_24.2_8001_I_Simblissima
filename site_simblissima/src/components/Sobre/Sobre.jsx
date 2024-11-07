@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from './styles';
+import Card from '../card-prog/Card';
 
 const Sobre = () => {
   return (

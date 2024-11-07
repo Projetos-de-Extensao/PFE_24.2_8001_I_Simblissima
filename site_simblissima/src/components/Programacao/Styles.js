@@ -24,6 +24,7 @@ section {
     padding: 20px;
     border-radius: 8px;
     padding: 15px 20px;
+    margin-bottom: 5px;
 }
 
 h1, h2, h3 {
