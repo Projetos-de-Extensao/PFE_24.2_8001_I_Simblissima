@@ -35,6 +35,29 @@ p {
     text-align: justify;
 }
 
+// Imagens do carrossel
+
+.custom-carousel .carousel-item {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.custom-carousel .carousel-item.active,
+.custom-carousel .carousel-item-next,
+.custom-carousel .carousel-item-prev {
+  opacity: 1;
+  position: relative;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 
 @media (min-width: 600px) {
     .container {
