@@ -4,7 +4,11 @@ import 'leaflet/dist/leaflet.css';
 
 const Mapa = ({ selectedPlace }) => {
     const autodromo = [-23.701, -46.697]; // Coordenadas do circuito de Interlagos
-    const hospital = [-23.704, -46.693]; // Coordenadas de um hospital próximo
+    const hospital_AE = [-23.599, -46.715]; // Coordenadas do hospital Albert Einstein
+    const centromedico_SJ = [-23.707, -46.696]; // Coordenadas do Centro Médico São José
+    const hospital_SR = [-23.581, -46.640]; // Coordenadas do Hospital Santa Rita
+    const hospital_SL = [-23.585, -46.675]; // Coordenadas do Sirio Libanês
+    const hospital_B = [-23.598267449746526, -46.68660312151122] // Coordenadas do Blanc Hospital
     const police = [-23.699, -46.695]; // Coordenadas de uma delegacia próxima
     const school = [-23.702, -46.690]; // Coordenadas de uma escola próxima
     const restaurant = [-23.700, -46.698]; // Coordenadas de um restaurante próximo
