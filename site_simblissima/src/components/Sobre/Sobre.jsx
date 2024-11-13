@@ -1,40 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container } from './styles';
-import Card from '../card-prog/Card';
-import Carousel from 'react-bootstrap/Carousel';
-
-// Importando imagens das equipes já que não foi possível importar de forma dinâmica
-import alpine from '../../media/equipes/carro-alpine.jpg';
-import astonmartin from '../../media/equipes/carro-astonmartin.jpg';
-import ferrari from '../../media/equipes/carro-ferrari.jpg';
-import mercedes from '../../media/equipes/carro-mercedes.jpg';
-import racingbulls from '../../media/equipes/carro-racingbulls.jpg';
-import redbull from '../../media/equipes/carro-redbull.jpg'; 
-import stake from '../../media/equipes/carro-stake.jpg';
-import williams from '../../media/equipes/carro-williams.jpg';
-import mclaren from '../../media/equipes/carro-mclaren.jpg';
-import haas from '../../media/equipes/carro-haas.jpg';
-
-const teamDescriptions = [
-  "Descrição do time 1",
-  "Descrição do time 2",
-  "Descrição do time 3",
-  "Descrição do time 4",
-  "Descrição do time 5",
-  "Descrição do time 6",
-  "Descrição do time 7",
-  "Descrição do time 8",
-  "Descrição do time 9",
-  "Descrição do time 10"
-];
+import Carrossel from '../Carrossel/Carrossel';
 
 const Sobre = () => {
-  const [selectedTeam, setSelectedTeam] = useState(null);
-
-  const handleSelect = (selectedIndex) => {
-    setSelectedTeam(selectedIndex);
-  };
-
   return (
     <Container>
       <section id="sobre" className='container'>
@@ -63,44 +31,10 @@ const Sobre = () => {
         <p>
           Explore o site para conhecer mais dicas e não hesite em entrar em contato para tirar dúvidas. Estamos aqui para tornar sua experiência inesquecível!
         </p>
-        <Carousel onSelect={handleSelect} fade className="custom-carousel">
-          <Carousel.Item>
-            <img src={alpine} alt="Alpine" className="carousel-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={astonmartin} alt="Aston Martin" className="carousel-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={ferrari} alt="Ferrari" className="carousel-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={haas} alt="Haas" className="carousel-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={mclaren} alt="McLaren" className="carousel-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={mercedes} alt="Mercedes" className="carousel-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={racingbulls} alt="Racing Bulls" className="carousel-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={redbull} alt="RedBull Racing" className="carousel-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={stake} alt="Stake Sauber" className="carousel-image" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={williams} alt="Williams" className="carousel-image" />
-          </Carousel.Item>
-        </Carousel>
-        {selectedTeam !== null && (
-          <div className="team-description">
-            <h3>Descrição do Time</h3>
-            <p>{teamDescriptions[selectedTeam]}</p>
-          </div>
-        )}
+        <hr></hr>
+
+        <h2>Equipes</h2>
+        <Carrossel />
       </section>
     </Container>
   );
