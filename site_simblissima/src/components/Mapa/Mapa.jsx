@@ -79,6 +79,34 @@ const Mapa = ({ selectedPlace }) => {
                 </Marker>
                 </>
             )}
+            {selectedPlace === 'hotel' && (
+                <>
+                <Marker position={hotel}>
+                    <Popup>
+                        Hotel Próximo
+                    </Popup>
+                </Marker>
+                </>
+            )}
+            {selectedPlace === 'atratativos' && (
+                <>
+                <Marker position={jard_bot}>
+                    <Popup>
+                        Jardim Botanico de SP
+                    </Popup>
+                </Marker>
+                <Marker position={ibirapuera}>
+                    <Popup>
+                        Ibirapuera
+                    </Popup>
+                </Marker>
+                <Marker position={aquario}>
+                    <Popup>
+                        Aquario de SP
+                    </Popup>
+                </Marker>
+                </>
+            )}
         </MapContainer>
     );
 };
