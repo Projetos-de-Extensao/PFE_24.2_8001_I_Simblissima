@@ -22,11 +22,13 @@ const Mapa = ({ selectedPlace }) => {
                 </Popup>
             </Marker>
             {selectedPlace === 'hospital' && (
+                <>
                 <Marker position={hospital}>
                     <Popup>
                         Hospital Próximo
                     </Popup>
                 </Marker>
+                </>
             )}
             {selectedPlace === 'police' && (
                 <>
@@ -43,18 +45,22 @@ const Mapa = ({ selectedPlace }) => {
                 </>
             )}
             {selectedPlace === 'school' && (
+                <>
                 <Marker position={school}>
                     <Popup>
                         Escola Próxima
                     </Popup>
                 </Marker>
+                </>
             )}
             {selectedPlace === 'restaurant' && (
+                <>
                 <Marker position={restaurant}>
                     <Popup>
                         Restaurante Próximo
                     </Popup>
                 </Marker>
+                </>
             )}
         </MapContainer>
     );
