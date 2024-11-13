@@ -8,7 +8,15 @@ const Mapa = ({ selectedPlace }) => {
     const centromedico_SJ = [-23.707, -46.696]; // Coordenadas do Centro Médico São José
     const hospital_SR = [-23.581, -46.640]; // Coordenadas do Hospital Santa Rita
     const hospital_SL = [-23.585, -46.675]; // Coordenadas do Sirio Libanês
-    const hospital_B = [-23.598267449746526, -46.68660312151122] // Coordenadas do Blanc Hospital
+    const hospital_B = [-23.598, -46.686] // Coordenadas do Blanc Hospital
+    const avenida_paulista = [-23.561, -46.656]; // Coordenadas da Avenida Paulista
+    const masp = [-23.561, -46.655]; // Coordenadas do MASP
+    const zoo = [-23.650, -46.620]; // Coordenadas do Zoologico
+    const usp = [-23.557, -46.721]; // Coordenadas da USP
+    const mor = [-23.597, -46.720]; // Coordenadas do Morumbi
+    const jard_bot = [-23.639, -46.627]; // Coordenadas do Jardim Botanico de SP
+    const ibirapuera = [-23.584, -46.663]; // Coordenadas do Ibirapuera
+    const aquario = [-23.593, -46.614]; // Coordenadas do Aquario de SP
     const police = [-23.699, -46.695]; // Coordenadas de uma delegacia próxima
     const school = [-23.702, -46.690]; // Coordenadas de uma escola próxima
     const restaurant = [-23.700, -46.698]; // Coordenadas de um restaurante próximo
