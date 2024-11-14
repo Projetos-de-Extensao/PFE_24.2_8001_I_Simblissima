@@ -13,11 +13,7 @@ const Mapa = ({ selectedPlace }) => {
     const jard_bot = [-23.639, -46.627]; // Coordenadas do Jardim Botanico de SP
     const ibirapuera = [-23.584, -46.663]; // Coordenadas do Ibirapuera
     const aquario = [-23.593, -46.614]; // Coordenadas do Aquario de SP
-    const police = [-23.699, -46.695]; // PESQUISEI E NAO ENCONTREI ESSA DELEGACIA AAAAAAAAAAAAAAAAAAAAAAAAA
-    const school = [-23.702, -46.690]; // Coordenadas de uma escola próxima
-    const restaurant = [-23.700, -46.698]; // Coordenadas de um restaurante próximo
-    const bank = [-23.703, -46.696]; // Coordenadas de um banco próximo
-
+    
     // Hoteis
     const hot_atica = [-23.638, -46.665]; // Coordenadas do Hotel GoÁtica
     const hot_blue = [-23.622, -46.696]; // Coordenadas do Hotel Blue Tree
