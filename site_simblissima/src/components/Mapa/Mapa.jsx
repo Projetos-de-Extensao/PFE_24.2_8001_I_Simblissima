@@ -13,7 +13,7 @@ const Mapa = ({ selectedPlace }) => {
     const jard_bot = [-23.639, -46.627]; // Coordenadas do Jardim Botanico de SP
     const ibirapuera = [-23.584, -46.663]; // Coordenadas do Ibirapuera
     const aquario = [-23.593, -46.614]; // Coordenadas do Aquario de SP
-    const police = [-23.699, -46.695]; // Coordenadas de uma delegacia próxima
+    const police = [-23.699, -46.695]; // PESQUISEI E NAO ENCONTREI ESSA DELEGACIA AAAAAAAAAAAAAAAAAAAAAAAAA
     const school = [-23.702, -46.690]; // Coordenadas de uma escola próxima
     const restaurant = [-23.700, -46.698]; // Coordenadas de um restaurante próximo
     const bank = [-23.703, -46.696]; // Coordenadas de um banco próximo
@@ -26,7 +26,6 @@ const Mapa = ({ selectedPlace }) => {
     const hot_oyo = [-23.624, -46.661]; // Coordenadas do Hotel OYO
 
     // Restaurantes no Brooklin
-    const carrados = [-23.6121, -46.6965]; // Carrados Restaurant and Bar
     const wine_beer = [-23.6108, -46.6950]; // 1847 Wine & Beer Bistro
     const harvest = [-23.6119, -46.6963]; // Harvest Restaurant
     const stanleys_fish = [-23.6132, -46.6959]; // Stanley's Fish and Chips
