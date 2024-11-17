@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container } from './Styles';
 
 function Nav() {
   const [showDropdown, setShowDropdown] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
 
   const handleDropdownClick = () => {
     setShowDropdown(!showDropdown);
@@ -14,15 +15,31 @@ function Nav() {
     }
   };
 
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('click', handleWindowClick);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('click', handleWindowClick);
+    };
+  }, []);
+
   return (
     <Container>
-      <nav>
+      <nav className={isSticky ? 'sticky' : ''}>
         <img src="/src/media/logo.png" alt="Logo" />
         <div className="dropdown">
           <button className="dropbtn" onClick={handleDropdownClick}>
             <img src="/src/media/menu.png" alt="Menu" />
           </button>
-
           <div
             className="dropdown-content"
             style={showDropdown ? { display: 'block' } : { display: 'none' }}

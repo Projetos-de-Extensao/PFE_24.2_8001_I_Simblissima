@@ -7,8 +7,16 @@ const Container = styled.div`
        background-color: #333;
        padding: 1em;
        justify-content: space-between;
-       top: 0;
+       top: -100px; /* Start hidden above the viewport */
        left: 0;
+       width: 100%;
+       z-index: 1000;
+       transition: top 1.0s ease-in-out; /* Smooth transition */
+     }
+
+     .sticky {
+       position: fixed;
+       top: 0; /* Slide down to the top of the viewport */
      }
 
      nav img {
