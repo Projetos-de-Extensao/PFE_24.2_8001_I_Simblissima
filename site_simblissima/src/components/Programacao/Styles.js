@@ -14,13 +14,14 @@ body {
 }
 
 .container {
-    margin: 0 auto;   
+    margin: 0 auto;
     border-radius: 3px;
     margin-bottom: 15px;
     box-shadow: rgba(0, 0, 0, 0.3) -3px 0px 12px -3px, rgba(0, 0, 0, 0.2) 3px 0px 12px -3px;
 }
 
 section {
+    
     padding: 20px;
     border-radius: 8px;
     padding: 15px 20px;

@@ -9,6 +9,8 @@ export const DropdownContainer = styled.div`
 
 export const StyledSelect = styled.select`
     padding: 10px;
+    width: 200px;
+    margin: 0 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;

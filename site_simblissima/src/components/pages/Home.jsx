@@ -6,6 +6,7 @@ import { Container } from './styles';
 import Programacao from '../Programacao/Programacao';
 import Sobre from '../Sobre/Sobre';
 import Proximidades from '../Proximidades/Proximidades';
+import Footer from '../Footer/Footer';
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
         <Proximidades/>
         <Ingresso/>
         <Sobre/>
+        <Footer/>
       </Container>
     </>
 

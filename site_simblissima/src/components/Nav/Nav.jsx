@@ -23,6 +23,18 @@ function Nav() {
     }
   };
 
+  const handleLinkClick = (e) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute('href').substring(1);
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop - 140,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('click', handleWindowClick);
@@ -44,12 +56,12 @@ function Nav() {
             className="dropdown-content"
             style={showDropdown ? { display: 'block' } : { display: 'none' }}
           >
-            <a href="#Programacao">Programação</a>
-            <a href="#como-chegar">Como Chegar</a>
-            <a href="#ingresso">Ingresso</a>
-            <a href="#usos-gerais">Usos Gerais</a>
-            <a href="#acomodacao">Acomodação</a>
-            <a href="#equipes">Equipes</a>
+            <a href="#Programacao" onClick={handleLinkClick}>Programação</a>
+            <a href="#como-chegar" onClick={handleLinkClick}>Como Chegar</a>
+            <a href="#ingresso" onClick={handleLinkClick}>Ingresso</a>
+            <a href="#usos-gerais" onClick={handleLinkClick}>Usos Gerais</a>
+            <a href="#acomodacao" onClick={handleLinkClick}>Acomodação</a>
+            <a href="#equipes" onClick={handleLinkClick}>Equipes</a>
           </div>
         </div>
       </nav>

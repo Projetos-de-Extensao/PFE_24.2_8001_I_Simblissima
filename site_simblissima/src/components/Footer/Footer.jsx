@@ -1,15 +1,12 @@
 import React from 'react';
-import './Footer.css';
+import { FooterContainer } from './Styles';
 
 const Footer = () => {
   return (
-    <footer>
-      <ul>
-        <li><a href="#">Sobre </a></li>
-        <li><a href="#">Termos de uso</a></li>
-      </ul>
-      <p>&copy; 2023 Meu Site</p>
-    </footer>
+    <FooterContainer>
+      <p className='pFooter'>Ap2 Projeto Front-End</p>
+      <p className='pFooter'>&copy; Grupo Simblissima 2024</p>
+    </FooterContainer>
   );
 };
 

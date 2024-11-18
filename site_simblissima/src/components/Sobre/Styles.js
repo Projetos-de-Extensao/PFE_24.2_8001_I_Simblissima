@@ -12,6 +12,7 @@ const Container = styled.div`
     margin: 0 auto;
     padding: 10px 20px;
     margin-top: 5px;
+    margin-bottom: 15px;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.3) -3px 0px 12px -3px, rgba(0, 0, 0, 0.2) 3px 0px 12px -3px;
 }
@@ -42,13 +43,20 @@ p {
   opacity: 0;
   position: absolute;
   width: 100%;
+  z-index: 1;
 }
 
-.custom-carousel .carousel-item.active,
-.custom-carousel .carousel-item-next,
-.custom-carousel .carousel-item-prev {
+.custom-carousel .carousel-item.active {
   opacity: 1;
   position: relative;
+  z-index: 2;
+}
+
+.custom-carousel .carousel-item-next,
+.custom-carousel .carousel-item-prev {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
 }
 
 .carousel-image {
@@ -58,12 +66,12 @@ p {
   margin: 0 auto;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 3; // Ensure controls are above the images
+}
 
 @media (min-width: 600px) {
-    .container {
-        padding: 10px;
-    }
-    
     h2 {
     font-size: 2.5rem;
     }

@@ -13,7 +13,7 @@ const Mapa = ({ selectedPlace }) => {
     const jard_bot = [-23.639, -46.627]; // Coordenadas do Jardim Botanico de SP
     const ibirapuera = [-23.584, -46.663]; // Coordenadas do Ibirapuera
     const aquario = [-23.593, -46.614]; // Coordenadas do Aquario de SP
-    
+
     // Hoteis
     const hot_atica = [-23.638, -46.665]; // Coordenadas do Hotel GoÁtica
     const hot_blue = [-23.622, -46.696]; // Coordenadas do Hotel Blue Tree
@@ -40,119 +40,121 @@ const Mapa = ({ selectedPlace }) => {
     const hospital_B = [-23.598, -46.686]; // Coordenadas do Blanc Hospital
 
     return (
-        <MapContainer center={autodromo} zoom={15} style={{ height: "80vh", width: "100%" }}>
-            <TileLayer
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            />
-            
-            {/* Locais principais */}
-            <Marker position={autodromo}>
-                <Popup>Autódromo</Popup>
-            </Marker>
-            <Marker position={avenida_paulista}>
-                <Popup>Avenida Paulista</Popup>
-            </Marker>
-            <Marker position={masp}>
-                <Popup>MASP</Popup>
-            </Marker>
-            <Marker position={zoo}>
-                <Popup>Zoológico de SP</Popup>
-            </Marker>
-            <Marker position={usp}>
-                <Popup>USP</Popup>
-            </Marker>
-            <Marker position={mor}>
-                <Popup>Morumbi</Popup>
-            </Marker>
+        <div className="map">
+            <MapContainer center={autodromo} zoom={15} style={{ height: "100%", width: "100%" }}>
+                <TileLayer
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                />
 
-            {/* Restaurantes e Hospitais em São Paulo */}
-            {selectedPlace === 'hospital' && (
-                <>
-                    <Marker position={hospital_AE}>
-                        <Popup>Hospital Albert Einstein</Popup>
-                    </Marker>
-                    <Marker position={centromedico_SJ}>
-                        <Popup>Centro Médico São José</Popup>
-                    </Marker>
-                    <Marker position={hospital_SR}>
-                        <Popup>Hospital Santa Rita</Popup>
-                    </Marker>
-                    <Marker position={hospital_SL}>
-                        <Popup>Hospital Sírio Libanês</Popup>
-                    </Marker>
-                    <Marker position={hospital_B}>
-                        <Popup>Blanc Hospital</Popup>
-                    </Marker>
-                </>
-            )}
-            {selectedPlace === 'restaurant' && (
-                <>
-                    <Marker position={carrados}>
-                        <Popup>Carrados Restaurant and Bar</Popup>
-                    </Marker>
-                    <Marker position={wine_beer}>
-                        <Popup>1847 Wine & Beer Bistro</Popup>
-                    </Marker>
-                    <Marker position={harvest}>
-                        <Popup>Harvest Restaurant</Popup>
-                    </Marker>
-                    <Marker position={stanleys_fish}>
-                        <Popup>Stanley's Fish and Chips</Popup>
-                    </Marker>
-                    <Marker position={brooklin_pub}>
-                        <Popup>Brooklin Pub</Popup>
-                    </Marker>
-                    <Marker position={goodberry}>
-                        <Popup>The Goodberry</Popup>
-                    </Marker>
-                    <Marker position={wokin}>
-                        <Popup>WOKIN Express</Popup>
-                    </Marker>
-                    <Marker position={bangrak}>
-                        <Popup>Bangrak Thai Street Food</Popup>
-                    </Marker>
-                    <Marker position={barbacoa}>
-                        <Popup>Barbacoa Churrascaria</Popup>
-                    </Marker>
-                    <Marker position={bar_brahma}>
-                        <Popup>Bar Brahma</Popup>
-                    </Marker>
-                </>
-            )}
-            {selectedPlace === 'hotel' && (
-                <>
-                    <Marker position={hot_atica}>
-                        <Popup>Hotel GoÁtica</Popup>
-                    </Marker>
-                    <Marker position={hot_blue}>
-                        <Popup>Hotel Blue Tree</Popup>
-                    </Marker>
-                    <Marker position={hot_merc}>
-                        <Popup>Hotel Mercure</Popup>
-                    </Marker>
-                    <Marker position={hot_ibis}>
-                        <Popup>Hotel Ibis</Popup>
-                    </Marker>
-                    <Marker position={hot_oyo}>
-                        <Popup>Hotel OYO</Popup>
-                    </Marker>
-                </>
-            )}
-            {selectedPlace === 'atrativos' && (
-                <>
-                    <Marker position={jard_bot}>
-                        <Popup>Jardim Botânico de SP</Popup>
-                    </Marker>
-                    <Marker position={ibirapuera}>
-                        <Popup>Parque Ibirapuera</Popup>
-                    </Marker>
-                    <Marker position={aquario}>
-                        <Popup>Aquário de SP</Popup>
-                    </Marker>
-                </>
-            )}
-        </MapContainer>
+                {/* Locais principais */}
+                <Marker position={autodromo}>
+                    <Popup>Autódromo</Popup>
+                </Marker>
+                <Marker position={avenida_paulista}>
+                    <Popup>Avenida Paulista</Popup>
+                </Marker>
+                <Marker position={masp}>
+                    <Popup>MASP</Popup>
+                </Marker>
+                <Marker position={zoo}>
+                    <Popup>Zoológico de SP</Popup>
+                </Marker>
+                <Marker position={usp}>
+                    <Popup>USP</Popup>
+                </Marker>
+                <Marker position={mor}>
+                    <Popup>Morumbi</Popup>
+                </Marker>
+
+                {/* Restaurantes e Hospitais em São Paulo */}
+                {selectedPlace === 'hospital' && (
+                    <>
+                        <Marker position={hospital_AE}>
+                            <Popup>Hospital Albert Einstein</Popup>
+                        </Marker>
+                        <Marker position={centromedico_SJ}>
+                            <Popup>Centro Médico São José</Popup>
+                        </Marker>
+                        <Marker position={hospital_SR}>
+                            <Popup>Hospital Santa Rita</Popup>
+                        </Marker>
+                        <Marker position={hospital_SL}>
+                            <Popup>Hospital Sírio Libanês</Popup>
+                        </Marker>
+                        <Marker position={hospital_B}>
+                            <Popup>Blanc Hospital</Popup>
+                        </Marker>
+                    </>
+                )}
+                {selectedPlace === 'restaurant' && (
+                    <>
+                        <Marker position={carrados}>
+                            <Popup>Carrados Restaurant and Bar</Popup>
+                        </Marker>
+                        <Marker position={wine_beer}>
+                            <Popup>1847 Wine & Beer Bistro</Popup>
+                        </Marker>
+                        <Marker position={harvest}>
+                            <Popup>Harvest Restaurant</Popup>
+                        </Marker>
+                        <Marker position={stanleys_fish}>
+                            <Popup>Stanley's Fish and Chips</Popup>
+                        </Marker>
+                        <Marker position={brooklin_pub}>
+                            <Popup>Brooklin Pub</Popup>
+                        </Marker>
+                        <Marker position={goodberry}>
+                            <Popup>The Goodberry</Popup>
+                        </Marker>
+                        <Marker position={wokin}>
+                            <Popup>WOKIN Express</Popup>
+                        </Marker>
+                        <Marker position={bangrak}>
+                            <Popup>Bangrak Thai Street Food</Popup>
+                        </Marker>
+                        <Marker position={barbacoa}>
+                            <Popup>Barbacoa Churrascaria</Popup>
+                        </Marker>
+                        <Marker position={bar_brahma}>
+                            <Popup>Bar Brahma</Popup>
+                        </Marker>
+                    </>
+                )}
+                {selectedPlace === 'hotel' && (
+                    <>
+                        <Marker position={hot_atica}>
+                            <Popup>Hotel GoÁtica</Popup>
+                        </Marker>
+                        <Marker position={hot_blue}>
+                            <Popup>Hotel Blue Tree</Popup>
+                        </Marker>
+                        <Marker position={hot_merc}>
+                            <Popup>Hotel Mercure</Popup>
+                        </Marker>
+                        <Marker position={hot_ibis}>
+                            <Popup>Hotel Ibis</Popup>
+                        </Marker>
+                        <Marker position={hot_oyo}>
+                            <Popup>Hotel OYO</Popup>
+                        </Marker>
+                    </>
+                )}
+                {selectedPlace === 'atrativos' && (
+                    <>
+                        <Marker position={jard_bot}>
+                            <Popup>Jardim Botânico de SP</Popup>
+                        </Marker>
+                        <Marker position={ibirapuera}>
+                            <Popup>Parque Ibirapuera</Popup>
+                        </Marker>
+                        <Marker position={aquario}>
+                            <Popup>Aquário de SP</Popup>
+                        </Marker>
+                    </>
+                )}
+            </MapContainer>
+        </div>
     );
 };
 

@@ -7,7 +7,7 @@ import astonmartin from '../../media/equipes/carro-astonmartin.jpg';
 import ferrari from '../../media/equipes/carro-ferrari.jpg';
 import mercedes from '../../media/equipes/carro-mercedes.jpg';
 import racingbulls from '../../media/equipes/carro-racingbulls.jpg';
-import redbull from '../../media/equipes/carro-redbull.jpg'; 
+import redbull from '../../media/equipes/carro-redbull.jpg';
 import stake from '../../media/equipes/carro-stake.jpg';
 import williams from '../../media/equipes/carro-williams.jpg';
 import mclaren from '../../media/equipes/carro-mclaren.jpg';
@@ -16,7 +16,7 @@ import haas from '../../media/equipes/carro-haas.jpg';
 const teamDescriptions = [
     "Alpine: Representando a Renault, com Pierre Gasly e Esteban Ocon. Focada em se estabelecer como uma força no meio do pelotão.",
     "Aston Martin: Equipe em ascensão com Fernando Alonso e Lance Stroll. Tem mostrado grande potencial e melhorias constantes.",
-    "Ferrari: Uma das equipes mais icônicas da F1, com Charles Leclerc e Carlos Sainz. Sempre uma forte competidora, especialmente em circuitos de alta velocidade.",
+    "Ferrari: Uma das equipes mais icônicas da F1, com Charles Leclerc e Carlos Sainz. Sempre uma forte competidora, especialmente em circuitos rápidos.",
     "Haas: Equipe americana com Kevin Magnussen e Nico Hülkenberg. Conhecida por sua abordagem pragmática e foco em maximizar recursos",
     "McLaren: Equipe britânica com uma rica história na F1. Atualmente, tem Lando Norris e Oscar Piastri como pilotos principais.",
     "Mercedes-AMG Petronas: Equipe de Lewis Hamilton e George Russell. Tem uma longa história de sucesso e é conhecida por sua engenharia de ponta.",
@@ -68,7 +68,7 @@ const Carrossel = () => {
                 </Carousel.Item>
             </Carousel>
             {selectedTeam !== null && (
-                <div className="team-description">
+                <div className="team-description"><br />
                     <h3>Descrição do Time</h3>
                     <p>{teamDescriptions[selectedTeam]}</p>
                 </div>
