@@ -45,7 +45,7 @@ p {
 }
 
 
-  @media (min-width: 400px) {
+  @media (min-width: 250px) and (max-width: 767px) {
 
       h2 {
       font-size: 2.5rem;

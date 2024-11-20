@@ -76,7 +76,7 @@ a:hover {
 }
 
 
-@media (min-width: 400px) {
+@media (min-width: 250px) and (max-width: 767px) {
     .legenda-compra img {
     width: 300px;
     height: 300px;
