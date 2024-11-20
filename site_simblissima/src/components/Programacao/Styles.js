@@ -20,6 +20,11 @@ body {
     box-shadow: rgba(0, 0, 0, 0.3) -3px 0px 12px -3px, rgba(0, 0, 0, 0.2) 3px 0px 12px -3px;
 }
 
+.espaco {
+    height: 15px;
+    background-color: #606060;
+}
+
 section {
     
     padding: 20px;

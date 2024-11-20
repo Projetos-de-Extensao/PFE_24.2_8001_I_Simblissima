@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from './Styles';
-import Carrossel from '../Carrossel/Carrossel';
+
 
 const Sobre = () => {
   return (
@@ -31,10 +31,6 @@ const Sobre = () => {
         <p>
           Explore o site para conhecer mais dicas e não hesite em entrar em contato para tirar dúvidas. Estamos aqui para tornar sua experiência inesquecível!
         </p>
-        <hr></hr>
-
-        <h2>Equipes</h2>
-        <Carrossel />
       </section>
     </Container>
   );
