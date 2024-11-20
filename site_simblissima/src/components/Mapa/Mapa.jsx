@@ -47,7 +47,7 @@ const Mapa = ({ selectedPlace }) => {
     const dp_49 = [-23.589718103021053, -46.66747317791252]; // Coordenadas da 49ª DP (Pinheiros)
 
     return (
-        <div className="map responsive-map">
+        <div className="map">
             <MapContainer center={center} zoom={12.4} style={{ height: "100%", width: "100%" }}>
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
