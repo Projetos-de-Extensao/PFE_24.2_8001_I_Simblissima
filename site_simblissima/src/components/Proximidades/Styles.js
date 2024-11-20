@@ -80,7 +80,22 @@ p {
       }
 }
 
+.responsive-mapa {
+    height: 500px;
+    width: 100%;
+}
 
+@media (max-width: 414px) { /* iPhone 11 Pro width */
+    .responsive-mapa {
+        height: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .responsive-mapa {
+        height: 200px;
+    }
+}
 
 `;
 

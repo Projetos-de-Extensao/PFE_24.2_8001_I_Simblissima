@@ -9,12 +9,12 @@ const Dropdown = ({ selectedPlace, setSelectedPlace }) => {
     return (
         <DropdownContainer>
             <StyledSelect value={selectedPlace} onChange={handleChange}>
+                <option value="">ESCOLHA</option>
                 <option value="hospital">Hospital</option>
                 <option value="hotel">Hotel</option>
-                <option value="atratativos">Atrativos</option>
+                <option value="atrativos">Atrativos</option>
                 <option value="police">Delegacia</option>
-                <option value="school">Escola</option>
-                <option value="restaurant">Restaurante</option>
+                <option value="restaurant">Restaurantes</option>
             </StyledSelect>
         </DropdownContainer>
     );
