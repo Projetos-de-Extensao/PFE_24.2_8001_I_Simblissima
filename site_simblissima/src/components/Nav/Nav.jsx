@@ -62,6 +62,7 @@ function Nav() {
             <a href="#usos-gerais" onClick={handleLinkClick}>Usos Gerais</a>
             <a href="#acomodacao" onClick={handleLinkClick}>Acomodação</a>
             <a href="#equipes" onClick={handleLinkClick}>Equipes</a>
+            <a href="proximidades" onClick={handleLinkClick}>Proximidades</a>
           </div>
         </div>
       </nav>
