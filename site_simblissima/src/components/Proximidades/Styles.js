@@ -80,7 +80,11 @@ p {
       }
 }
 
-
+@media (max-width: 400px) {
+    .map{
+      height: 20vh;
+    }
+}
 
 `;
 

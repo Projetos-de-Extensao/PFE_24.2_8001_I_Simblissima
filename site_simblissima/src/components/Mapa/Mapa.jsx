@@ -3,6 +3,9 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
 const Mapa = ({ selectedPlace }) => {
+    //Centro do Mapa
+    const center = [-23.64952802525482, -46.699298278229286]
+    
     // Locais principais
     const autodromo = [-23.701, -46.697]; // Coordenadas do circuito de Interlagos
     const avenida_paulista = [-23.561, -46.656]; // Coordenadas da Avenida Paulista
@@ -22,7 +25,6 @@ const Mapa = ({ selectedPlace }) => {
     const hot_oyo = [-23.624, -46.661]; // Coordenadas do Hotel OYO
 
     // Restaurantes no Brooklin
-    const wine_beer = [-23.6108, -46.6950]; // 1847 Wine & Beer Bistro
     const harvest = [-23.6119, -46.6963]; // Harvest Restaurant
     const stanleys_fish = [-23.6132, -46.6959]; // Stanley's Fish and Chips
     const brooklin_pub = [-23.6135, -46.6966]; // Brooklin Pub
@@ -39,9 +41,14 @@ const Mapa = ({ selectedPlace }) => {
     const hospital_SL = [-23.585, -46.675]; // Coordenadas do Sirio Libanês
     const hospital_B = [-23.598, -46.686]; // Coordenadas do Blanc Hospital
 
+    // Delegacias
+    const dp_102 = [-23.675520590215722, -46.712377865049646]; // Coordenadas do 102° Distrito Policial (Socorro)
+    const dp_27 = [-23.71138321243358, -46.70804935953138]; // Coordenadas da 27ª DP (Interlagos)
+    const dp_49 = [-23.589718103021053, -46.66747317791252]; // Coordenadas da 49ª DP (Pinheiros)
+
     return (
         <div className="map">
-            <MapContainer center={autodromo} zoom={15} style={{ height: "100%", width: "100%" }}>
+            <MapContainer center={center} zoom={12.4} style={{ height: "100%", width: "100%" }}>
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -50,21 +57,6 @@ const Mapa = ({ selectedPlace }) => {
                 {/* Locais principais */}
                 <Marker position={autodromo}>
                     <Popup>Autódromo</Popup>
-                </Marker>
-                <Marker position={avenida_paulista}>
-                    <Popup>Avenida Paulista</Popup>
-                </Marker>
-                <Marker position={masp}>
-                    <Popup>MASP</Popup>
-                </Marker>
-                <Marker position={zoo}>
-                    <Popup>Zoológico de SP</Popup>
-                </Marker>
-                <Marker position={usp}>
-                    <Popup>USP</Popup>
-                </Marker>
-                <Marker position={mor}>
-                    <Popup>Morumbi</Popup>
                 </Marker>
 
                 {/* Restaurantes e Hospitais em São Paulo */}
@@ -89,12 +81,6 @@ const Mapa = ({ selectedPlace }) => {
                 )}
                 {selectedPlace === 'restaurant' && (
                     <>
-                        <Marker position={carrados}>
-                            <Popup>Carrados Restaurant and Bar</Popup>
-                        </Marker>
-                        <Marker position={wine_beer}>
-                            <Popup>1847 Wine & Beer Bistro</Popup>
-                        </Marker>
                         <Marker position={harvest}>
                             <Popup>Harvest Restaurant</Popup>
                         </Marker>
@@ -150,6 +136,34 @@ const Mapa = ({ selectedPlace }) => {
                         </Marker>
                         <Marker position={aquario}>
                             <Popup>Aquário de SP</Popup>
+                        </Marker>
+                        <Marker position={avenida_paulista}>
+                            <Popup>Avenida Paulista</Popup>
+                        </Marker>
+                        <Marker position={masp}>
+                            <Popup>MASP</Popup>
+                        </Marker>
+                        <Marker position={zoo}>
+                            <Popup>Zoológico de SP</Popup>
+                        </Marker>
+                        <Marker position={usp}>
+                            <Popup>USP</Popup>
+                        </Marker>
+                        <Marker position={mor}>
+                            <Popup>Morumbi</Popup>
+                        </Marker>
+                    </>
+                )}
+                {selectedPlace === 'police' && (
+                    <>
+                        <Marker position={dp_102}>
+                            <Popup>102° Distrito Policial (Socorro)</Popup>
+                        </Marker>
+                        <Marker position={dp_27}>
+                            <Popup>27ª DP (Interlagos)</Popup>
+                        </Marker>
+                        <Marker position={dp_49}>
+                            <Popup>49ª DP (Pinheiros)</Popup>
                         </Marker>
                     </>
                 )}

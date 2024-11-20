@@ -13,7 +13,7 @@ const Proximidades = () => {
                 <h2 className='titulo-section'>Proximidades</h2>
 
                 <Dropdown selectedPlace={selectedPlace} setSelectedPlace={setSelectedPlace} />
-                <div className='mapa'>
+                <div className='mapa responsive-mapa'>
                     <Mapa selectedPlace={selectedPlace} />
                 </div>
 
@@ -29,7 +29,7 @@ const Proximidades = () => {
 
                     <h3>Hoteis</h3>
 
-                    <p>Hotel GoÁtica:  <a href="https://maps.app.goo.gl/gCrEoFQ5r1hpXnPT6"> Endereço: R. Ática, 590 - Campo Belo, São Paulo - SP, 04634-042</a> </p>
+                    <p>Hotel Goática:  <a href="https://maps.app.goo.gl/gCrEoFQ5r1hpXnPT6"> Endereço: R. Ática, 590 - Campo Belo, São Paulo - SP, 04634-042</a> </p>
                     <p>Hotel Blue Tree Premium:  <a href="https://maps.app.goo.gl/7EJpmCXzMD73WgrK7"> Endereço: Av. Roque Petroni Júnior, 1000 - Vila Gertrudes, São Paulo - SP, 04707-000</a> </p>
                     <p>Hotel Mercure:  <a href="https://maps.app.goo.gl/ms77N43E2dU87ybV7"> Endereço: Rua Professor Manoelito de Ornellas, 104 - Chácara Santo Antônio, São Paulo - SP, 04719-040</a> </p>
                     <p>Hotel Ibis:  <a href="https://maps.app.goo.gl/Y2CUZr6utGPhdVtx9"> Endereço: Av. Roque Petroni Júnior, 800 - Torre I - Brooklin, São Paulo - SP, 04707-000</a> </p>
@@ -48,8 +48,9 @@ const Proximidades = () => {
 
                     <h3>Delegacias</h3> {/* Temos que ver a parte de Delegacias!! */}
 
-                    <p>Delegação de Polícia 27ª DP (Interlagos): <a href="https://www.google.com/maps/search/-23.7130,+-46.7084?sa=X&ved=1t:242&ictx=111"> Endereço: Rua Engenheiro Antônio de Souza, 69 - Interlagos, São Paulo - SP, 04801-000</a></p>
-                    <p>Delegação de Polícia 49ª DP (Pinheiros): <a href="https://www.google.com/maps/search/-23.5899,+-46.6675?sa=X&ved=1t:242&ictx=111"> Endereço: Rua dos Três Irmãos, 282, Vila Progredior, São Paulo - SP, 04772-080</a></p>
+                    <p>102° Distrito Policial (Socorro): <a href="https://www.google.com/maps/search/-23.675520590215722,+-46.712377865049646?sa=X&ved=1t:242&ictx=111"> Endereço: Rua Dr. Rubens Gomes Bueno, 111 - Socorro, São Paulo - SP, 04773-000</a></p>
+                    <p>Delegação de Polícia 27ª DP (Interlagos): <a href="https://www.google.com/maps/search/-23.71138321243358,+-46.70804935953138?sa=X&ved=1t:242&ictx=111"> Endereço: Rua Engenheiro Antônio de Souza, 69 - Interlagos, São Paulo - SP, 04801-000</a></p>
+                    <p>Delegação de Polícia 49ª DP (Pinheiros): <a href="https://www.google.com/maps/search/-23.589718103021053,+-46.66747317791252?sa=X&ved=1t:242&ictx=111"> Endereço: Rua dos Três Irmãos, 282, Vila Progredior, São Paulo - SP, 04772-080</a></p>
 
                     <h3>Restaurantes</h3>
                     <p>1847 Wine & Beer Bistro: <a href="https://www.google.com/maps/search/-23.6108,+-46.6950?sa=X&ved=1t:242&ictx=111"> Endereço: Rua dos Três Irmãos, 290, Vila Progredior, São Paulo - SP, 04772-080</a></p>
