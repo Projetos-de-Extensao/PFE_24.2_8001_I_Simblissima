@@ -7,15 +7,16 @@ export const Container = styled.div`
     font-family: 'Titillium Web', sans-serif;
 
     color: #fff;
-    background-color: #606060;
+    background-color: #BBB;
 
     .container {
-        background-color: #454545;
+        background-color: #909090;
     }
 
     h1, h2, h3 {
     color: red;
     margin-bottom: 15px;
-    }    
+    }
 
 `
+

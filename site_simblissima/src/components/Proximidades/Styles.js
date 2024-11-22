@@ -14,11 +14,12 @@ const Container = styled.div`
       margin-top: 5px;
       margin-bottom: 15px;
       border-radius: 3px;
+      color: black;
       box-shadow: rgba(0, 0, 0, 0.3) -3px 0px 12px -3px, rgba(0, 0, 0, 0.2) 3px 0px 12px -3px;
 }
 
-  h1, h2, h3 {
-    color: red;
+h1, h2, h3 {
+    color: #702;
     margin-bottom: 15px;
 }
 
@@ -45,7 +46,7 @@ p {
 }
 
 
-  @media (min-width: 250px) and (max-width: 767px) {
+  @media (min-width: 400px) {
 
       h2 {
       font-size: 2.5rem;
@@ -80,11 +81,7 @@ p {
       }
 }
 
-@media (max-width: 400px) {
-    .map{
-      height: 20vh;
-    }
-}
+
 
 `;
 

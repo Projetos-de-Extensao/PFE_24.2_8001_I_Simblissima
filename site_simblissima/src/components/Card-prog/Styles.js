@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledWrapper = styled.div`
     .container-prog {
         display: grid;
-        grid-template-columns: 1fr 
+        grid-template-columns: 1fr
         justify-items: center;
         align-items: center;
         justify-content: center;
@@ -20,7 +20,7 @@ const StyledWrapper = styled.div`
         width: 300px;
         height: 300px;
         border-radius: 8px;
-        background-color: #454545;
+        background-color: #707070;
         transition: all 0.3s ease-in-out;
     }
 
@@ -33,10 +33,12 @@ const StyledWrapper = styled.div`
 
     .titulo-prog {
         font-size: 30px;
+        color: black;
     }
 
     .prog-data {
         font-size: 20px;
+        color: black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -61,7 +63,7 @@ const StyledWrapper = styled.div`
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
- 
+
 
     @media (min-width: 700px) {
         .container {

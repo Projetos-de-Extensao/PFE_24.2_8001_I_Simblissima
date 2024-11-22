@@ -22,11 +22,11 @@ body {
 
 .espaco {
     height: 15px;
-    background-color: #606060;
+    background-color: #BBB;
 }
 
 section {
-    
+
     padding: 20px;
     border-radius: 8px;
     padding: 15px 20px;
@@ -34,7 +34,7 @@ section {
 }
 
 h1, h2, h3 {
-    color: red;
+    color: #702;
     margin-bottom: 15px;
 }
 

@@ -14,11 +14,12 @@ const Container = styled.div`
     margin-top: 5px;
     margin-bottom: 15px;
     border-radius: 3px;
+    color: black;
     box-shadow: rgba(0, 0, 0, 0.3) -3px 0px 12px -3px, rgba(0, 0, 0, 0.2) 3px 0px 12px -3px;
 }
 
 h1, h2, h3 {
-    color: red;
+    color: #702;
     margin-bottom: 15px;
 }
 
